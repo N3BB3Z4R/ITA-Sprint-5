@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chistacos Everyday</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="shortcut icon" href="./images/bg1.jpg" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <div id="weather">Enjoy this night in Barcelona, the weather is 11ºC and Cloudy</div>
+    <div id="joke">
+      <h1>Preparado para reir?</h1>
+      <p id="joke-text">Presiona el boton Siguiente Chiste.</p>
+      <hr>
+      <div id="joke-vote">
+        <p>Rate this joke:</p>
+        <button id="joke-vote-1">🥺</button>
+        <button id="joke-vote-2">😊</button>
+        <button id="joke-vote-3">😂</button>
+        <p id="joke-vote-result"></p>
+      </div>
+      <button id="next-joke" class="button" onclick="getRandomJoke()">Next Joke</button>
+    </div>
+    <footer class="footer">
+      <p>&copy; Copyright 2021 - Óscar 'Nebe' Abad</p>
+    </footer>
+  </div>
+
+  <!-- <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+  <script src="./component/blob.js"></script> -->
+  <script src="main.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+  </style>
+</body>
+</html>
